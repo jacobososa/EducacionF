@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="deportes.css" />
+  </head>
+  <body class="bodyb">
+    <header class="headerb">
+      <center><h1>BASCKETBALL</h1></center>
+      <img class="imgb" src="/imagenes/headerb.jpg" alt="">
+      <nav>
+        <button class="buttons"><a href="/index.html">INICIO</a></button>
+      </nav>
+    </header>
+    <main>
+      <h2 class="titulo">¿QUE ES EL BASCKETBALL?</h2>
+      <div id="texto1">
+        <p class="texto-left">
+          El baloncesto, basquetbol o básquetbol (del inglés basketball; de
+          basket, ‘canasta’, y ball, ‘pelota’), o simplemente básquet, es un
+          deporte de equipo que se puede desarrollar tanto en pista cubierta
+          como en descubierta, en el que dos conjuntos de cinco jugadores cada
+          uno, intentan anotar puntos, también llamados canastas o dobles y/o
+          triples introduciendo un balón en un aro colocado a 3,05 metros del
+          suelo del que cuelga una red, lo que le da un aspecto de cesta o
+          canasta.
+        </p>
+      </div>
+      <iframe
+        class="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/ray78DRyiVM"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+
+      <div id="texto1">
+        <p class="texto-left">
+          Fue inventado por James Naismith profesor de la Universidad de
+          Illinois (Massachusetts) y nació como una respuesta a la necesidad de
+          realizar alguna actividad deportiva durante el invierno, en la escuela
+          de YMCA en Massachusetts. James Naismith, (un profesor de educación
+          física) le fue encargada la misión, en 1891, de idear un deporte que
+          se pudiera jugar bajo techo, pues los inviernos en esa zona
+          dificultaban la realización de alguna actividad al aire libre.
+        </p>
+      </div>
+      <div id="texto1">
+        <p class="texto-left">
+          Se juega con dos equipos de cinco personas, durante 4 períodos o
+          cuartos de 10 minutos (FIBA) 4 o 12 (NBA) minutos cada uno. Al
+          finalizar el segundo cuarto, se realiza un descanso, normalmente de 15
+          a 20 minutos según la reglamentación propia del campeonato al cual el
+          partido pertenezca. También existe una modalidad, fundamentalmente
+          para discapacitados, en la que se juega en silla de ruedas (baloncesto
+          en silla de ruedas), prácticamente con las mismas normas que el
+          baloncesto habitual.
+        </p>
+      </div>
+    </main>
+    <main>
+        <div class="cont">
+            <section id="p0">
+                <h3>1--¿De cuántos jugadores pueden ser los equipos?</h3>
+                <label>
+                    <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> tres conjuntos de 7 jugadores cada uno.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> Dos conjuntos de cinco jugadores cada uno.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> cinco conjuntos de cuatro jugadores cada uno.
+                </label>
+            </section>
+  
+            <section id="p1">
+                <h3>2--¿Cómo son llamados los puntos anotados por los equipos?</h3>
+                <label>
+                    <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> Gol.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> Canastas o dobles y/o triples.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> anotacion.
+                </label>
+            </section>
+  
+            <section id="p2">
+                <h3>3--¿De qué otra forma se le llama al básquet bol?</h3>
+                <label>
+                    <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> futbol.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> balon mano.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> Baloncesto. 
+                </label>
+            </section>
+  
+            <section id="p3">
+                <h3>4--¿Donde nacio el basquetbol?</h3>
+                <label>
+                    <input type="radio" value="1" name="p3" onclick="respuesta(3,this)">Estados Unidos-Springfield (Massachusetts).
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p3" onclick="respuesta(3,this)"> francia.
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> japon.
+                </label>
+            </section>
+  
+            <section id="p4">
+                <h3>5--¿En cuántos periodos se divide el partido?</h3>
+                <label>
+                    <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> se divide en cinco periodos.
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> Se divide en cuatro periodos. 
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> se divide en dos periodos.
+                </label>
+            </section>
+            <button class="botcu" onclick="corregir()">CORREGIR</button>
+            <h2 class="h2" style="color: rgb(8, 8, 8);">Cantidad acertadas: <span id="resultado"></span></h2>
+        </div>
+        <script src="deportes.js"></script>
+    </main>
+    <footer class="footer1">
+        <hr />
+        <center>
+          <h3 style="color: #f8f8f8; font-size: 25px">contactanos</h3>
+          <br />
+          <t style="color: #f8f8f8">edufisica@hotmail.com</t>
+          <br />
+          <t style="color: #fafafc">N° 3055590760</t>
+          <br />
+          <t style="color: #f8f8f8">Medellin Antioquia</t>
+          <br />
+          <t style="color: #f8f8f8">2023</t>
+        </center>
+    </footer>
+  </body>
+</html>

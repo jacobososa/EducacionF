@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="deportes.css" />
+  </head>
+  <body class="bodyf">
+    <header class="headerf">
+      <center><h1>FUTBOOL</h1></center>
+      <img class="imgheader" src="/imagenes/header.webp" alt="">
+      <nav class="navf">
+        <button class="buttons"><a href="/index.html">INICIO</a></button>
+      </nav>
+    </header>
+    <main>
+      <h2 class="titulo">¿QUE ES EL FUTBOOL?</h2>
+      <div id="texto1">
+        <p class="texto-left">
+          El fútbol (del inglés football) es un deporte en el que dos equipos
+          compuestos por once jugadores se enfrentan entre sí. Cada equipo, que
+          dispone de diez jugadores que se mueven por el campo y de un portero
+          (también conocido como arquero o guardameta), tratará de lograr que la
+          pelota (balón) ingrese en el arco (portería) del equipo rival,
+          respetando diversas reglas.
+        </p>
+      </div>
+      <img class="imgf" src="/imagenes/futbool.jpg" alt="" />
+
+      <h2 class="titulo">BASE DEL REGLAMENTO</h2>
+
+      <div id="texto1">
+        <p class="texto-left">
+          Este deporte, que en España también recibe el nombre de balompié y que
+          en los Estados Unidos se conoce como soccer, tiene como regla más
+          importante que los jugadores, con la excepción del arquero en su área,
+          no pueden tocar la pelota con las manos o los brazos.
+        </p>
+      </div>
+      <div id="texto1">
+        <p class="texto-left">
+          Cada vez que la pelota entra en el arco rival, se consigue un gol (una
+          anotación). El equipo ganador es el que marca más goles en el tiempo
+          reglamentario (dos tiempos de 45 minutos), aunque el empate (la
+          igualdad de goles) es un resultado posible.
+        </p>
+      </div>
+      <div id="texto1">
+        <p class="texto-left">
+          El campo de juego en el fútbol es rectangular y está cubierto de
+          césped, por lo general natural. Los arcos se encuentran a cada lado
+          del campo, y cada equipo debe defender uno y anotar (hacer goles) en
+          el otro.
+        </p>
+      </div>
+      <h2 class="titulo">HISTORIA DEL FUTBOOL</h2>
+      <iframe class="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/ugZi3qKEgYI"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+    </main>
+    <main>
+        <div class="cont">
+            <section id="p0">
+                <h3>1--¿Quien gano el mundia 2022?</h3>
+                <label>
+                    <input type="radio" value="1" name="p0" onclick="respuesta(0,this)"> colombia
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p0" onclick="respuesta(0,this)"> argentina
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p0" onclick="respuesta(0,this)"> portugal
+                </label>
+            </section>
+  
+            <section id="p1">
+                <h3>2--¿Qué jugador a ganado más el Balon de Oro?</h3>
+                <label>
+                    <input type="radio" value="1" name="p1" onclick="respuesta(1,this)"> ronaldinho
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p1" onclick="respuesta(1,this)"> Lionel Messi
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p1" onclick="respuesta(1,this)"> Cristiano Ronaldo
+                </label>
+            </section>
+  
+            <section id="p2">
+                <h3>3--¿En qué equipos españoles jugó el histórico Maradona?</h3>
+                <label>
+                    <input type="radio" value="1" name="p2" onclick="respuesta(2,this)"> FC Barcelona y real madrid
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p2" onclick="respuesta(2,this)"> Sevilla y real madrid 
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p2" onclick="respuesta(2,this)"> FC Barcelona y Sevilla 
+                </label>
+            </section>
+  
+            <section id="p3">
+                <h3>4--¿Quien gano el balon de oro 2022?</h3>
+                <label>
+                    <input type="radio" value="1" name="p3" onclick="respuesta(3,this)"> Karim Benzema
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p3" onclick="respuesta(3,this)">Lionel Messi
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p3" onclick="respuesta(3,this)"> Cristiano Ronaldo
+                </label>
+            </section>
+  
+            <section id="p4">
+                <h3>5--¿Cuánto dura un partido de fútbol?</h3>
+                <label>
+                    <input type="radio" value="1" name="p4" onclick="respuesta(4,this)"> 60min
+                </label>
+                <label>
+                    <input type="radio" value="2" name="p4" onclick="respuesta(4,this)"> 90min
+                </label>
+                <label>
+                    <input type="radio" value="3" name="p4" onclick="respuesta(4,this)"> 45min
+                </label>
+            </section>
+            <button class="botcu" onclick="corregir()">CORREGIR</button>
+            <h2 class="h2" style="color: rgb(8, 8, 8);">Cantidad acertadas: <span id="resultado"></span></h2>
+        </div>
+        <script src="deportes.js"></script>
+    </main>
+  
+    <footer class="footer1">
+        <hr />
+        <center>
+          <h3 style="color: #f8f8f8; font-size: 25px">contactanos</h3>
+          <br />
+          <t style="color: #f8f8f8">edufisica@hotmail.com</t>
+          <br />
+          <t style="color: #fafafc">N° 3055590760</t>
+          <br />
+          <t style="color: #f8f8f8">Medellin Antioquia</t>
+          <br />
+          <t style="color: #f8f8f8">2023</t>
+        </center>
+
+    </footer>
+  </body>
+</html>

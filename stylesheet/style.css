@@ -1,19 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body1 {
+    background-color: rgb(247, 206, 206);
+    margin: 0px;
+}
 .site-header1 {
-    background-image: url(../recurso.png);
     background-size: cover;
     background-position: center;
-    height: 50vh;
+    height: 20vh;
 }
-#inicio1 {
-    position: absolute;
-    left: 1170px;
+.img1 {
+    width: 1348px;
+    height: 350px;
+}
+.dropdown{
+    position: relative;
+    left: 1155px;
+
 }
 .bot1 {
-    background-color: rgb(134, 134, 252);
+    background-color: rgb(250, 113, 113);
     font-size: 15px;
-    border: rgb(0, 24, 243);
+    border: rgb(245, 51, 51);
     padding: 8px;
     border-radius: 15px;
     position: relative;
     left: 10px;
+}
+
+.bot11 {
+    background-color: rgb(241, 134, 134);
+    font-size: 17px;
+    border: rgb(248, 43, 43);
+    padding: 8px;
+    border-radius: 15px;
+    position: relative;
+    left: 15px;
+}
+
+.dropdown1{
+    font-size: 20px;
+    padding: 8px;
+    position: relative;
+    left: 20px;
+}
+#texto1 {
+    margin-left: 200px;
+    width: 650px;
+    background-color: rgb(250, 120, 120); 
+}
+.titulo {
+    margin-left: 200px;
+    width: 650px;
+}
+.texto-left {
+    text-align:left; font-size: 20px;
+    
+}
+.img11 {
+    width: 400px;
+    height: 250px;
+    position: relative;
+    left: 300px;
+}
+.footer1 {
+    background-color: rgb(245, 27, 27);
+}
+.video{
+    width: 500px;
+    height: 300px;
+    position: relative;
+    left: 200px;
 }

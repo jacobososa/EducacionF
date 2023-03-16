@@ -1,0 +1,133 @@
+/*FUTBOL*/
+.bodyf{
+    background-color: rgb(247, 206, 206);
+}
+.imgheader{
+    width: 1334px;
+    height: 400px;
+
+}
+
+#texto1 {
+    margin-left: 200px;
+    width: 650px;
+    background-color: rgb(250, 120, 120); 
+}
+
+.texto-left {
+    text-align:left; font-size: 20px;
+    
+}
+.titulo {
+    margin-left: 200px;
+    width: 650px;
+}
+.imgf{
+        width: 500px;
+        height: 300px;
+        position: relative;
+        left: 200px;
+}
+.video{
+        width: 500px;
+        height: 300px;
+        position: relative;
+        left: 200px;
+}
+.buttons{
+    background-color: rgb(252, 93, 93);
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 16px;
+
+
+}
+.footer1{
+    background-color: rgb(245, 27, 27);
+}
+/*BASCKETBAAL*/
+.bodyb{
+    background-color: rgb(247, 206, 206);
+}
+
+
+.cont{
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+section{
+    border: 3px solid #000000;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: rgba(169, 169, 169, 0.8);
+}
+label{
+    display: block;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: 0px;
+    margin-bottom: 3px;
+}
+label:hover{
+    background-color: c;
+}
+.botcu{
+    width: 80%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    
+    background-color: rgba(250, 61, 61, 0.8);
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+}
+.botcu:hover{
+    background-color: rgba(85, 78, 78, 0.8);
+    
+}
+
+.h2{
+    text-align: center;
+    font-size: 18px;
+    font-family: cursive;
+}
+#resultado{
+
+    font-size: 30px;
+    color: rgb(2, 2, 2);
+    background-color: rgba(202, 156, 196, 0.8);
+}
+
+#p0{
+    color: rgb(13, 14, 14);
+    font-family: cursive;
+    
+}
+#p1{
+    color: rgb(3, 3, 3);
+    font-family: cursive;
+}
+#p2{
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+}
+#p3{
+    color: rgb(12, 12, 12);
+    font-family: cursive;
+}
+#p4{
+    color: rgb(5, 5, 5);
+    font-family: cursive;
+}
+.imgb{
+    width: 1340px;
+    height: 350px;
+}
