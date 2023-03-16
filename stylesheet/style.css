@@ -1,0 +1,19 @@
+.site-header1 {
+    background-image: url(../recurso.png);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+#inicio1 {
+    position: absolute;
+    left: 1170px;
+}
+.bot1 {
+    background-color: rgb(134, 134, 252);
+    font-size: 15px;
+    border: rgb(0, 24, 243);
+    padding: 8px;
+    border-radius: 15px;
+    position: relative;
+    left: 10px;
+}
